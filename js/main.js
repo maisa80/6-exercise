@@ -59,7 +59,7 @@ previous.addEventListener('click', function () {
 })
 
 function fetchUrl(){
-    fetch('http://codexplained.se/animals.php?animal=' + number)
+    fetch('https://codexplained.se/animals.php?animal=' + number)
 
     .then(response => response.text())
     .then(data => {
